@@ -1,0 +1,39 @@
+*
+{
+    padding:0px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+main
+{
+  
+  width: 100%;
+ 
+}
+#Searchbox
+{
+    margin-left: 500px;
+    text-align: center;
+    
+    font-size: 1.5rem;
+   
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.moviebox
+{
+    border: 1px solid black;
+    max-height:500px;
+    width: 280px;
+
+
+}
+.moviebox img{
+ margin: 0;
+ width: 100%;
+    height: 35%;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
+}
